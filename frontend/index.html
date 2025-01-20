@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dijkstra's Algorithm - Shortest Path</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Graph Traversal - Dijkstra's Algorithm</h1>
+    <textarea id="graphInput" rows="10" cols="30">
+{
+    "A": {"B": 1, "C": 4},
+    "B": {"A": 1, "C": 2, "D": 6},
+    "C": {"A": 4, "B": 2, "D": 3},
+    "D": {"B": 6, "C": 3}
+}
+    </textarea>
+    <br />
+    <input type="text" id="sourceInput" placeholder="Enter Source Node (e.g., A)" />
+    <br />
+    <button id="runAlgorithm">Run Algorithm</button>
+    <h3>Shortest Path Result:</h3>
+    <pre id="output"></pre>
+    <script src="script.js"></script>
+</body>
+</html>
