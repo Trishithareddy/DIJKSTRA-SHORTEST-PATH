@@ -1,4 +1,3 @@
-Dijkstra's Shortest Path Algorithm
 Project Name:
 Dijkstra's Shortest Path Algorithm
 
