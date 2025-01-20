@@ -10,6 +10,13 @@ Given a graph with nodes and weighted edges, find the shortest path from a start
 Output:
 The output of this project is the shortest path from the source node to the destination node in a graph. It will also include the total weight (cost) of the shortest path. Additionally, the program will display the path taken by the algorithm and the distance to each node from the source.
 
+![image](https://github.com/user-attachments/assets/0cee6c60-354a-418a-9dec-079f3bf4b65f)
+
+![image](https://github.com/user-attachments/assets/73e5fe4b-9092-4ee4-ab1e-94aa91a1018a)
+
+
+
+
 Methodologies
 1. Graph Representation:
 The graph is represented as an adjacency matrix or adjacency list where each node is connected to other nodes with weighted edges. The weights represent the cost or distance between nodes.
