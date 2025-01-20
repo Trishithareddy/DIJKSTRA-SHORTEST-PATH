@@ -18,9 +18,13 @@ The graph is represented as an adjacency matrix or adjacency list where each nod
 The core methodology used in this project is Dijkstra's Algorithm, which works as follows:
 
 Initialization: Start by marking the source node with a distance of 0, and all other nodes with infinity.
+
 Relaxation: For the current node, update the distances to its neighboring nodes if a shorter path is found.
+
 Selection: After updating the neighbors, select the node with the smallest tentative distance as the next node to visit.
+
 Repeat: Continue the process until all nodes have been visited, or the destination node is reached.
+
 3. Algorithm Implementation:
 Use a priority queue (min-heap) to efficiently get the next node with the smallest tentative distance.
 Keep track of the shortest paths to each node and update them as the algorithm progresses.
